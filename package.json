@@ -20,9 +20,11 @@
   "scripts": {
     "format": "prettier --check --ignore-unknown .",
     "format:fix": "prettier --write --ignore-unknown .",
+    "publish-package": "pnpm format && changeset publish",
     "prepare": "husky"
   },
   "devDependencies": {
+    "@changesets/cli": "^3.0.3",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "prettier": "^3.9.10"
