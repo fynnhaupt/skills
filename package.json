@@ -1,0 +1,28 @@
+{
+  "name": "@fynnhaupt/skills",
+  "description": "My collection of agent skills I use every day.",
+  "keywords": [
+    "agent-skills",
+    "ai-agents",
+    "claude",
+    "claude-skills",
+    "productivity",
+    "workflow-automation"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fynnhaupt/skills"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.15.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.15.0"
+}
