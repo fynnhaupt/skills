@@ -12,7 +12,7 @@
 
 ## What is this?
 
-My collection of agent skills I use every day to automate my workflows:
+My collection of agent skills I use every day to automate my workflow:
 
 1. **Reusable**: Covers the tasks that come up again and again.
 2. **One workflow**: Each skill covers one step, and together they form a single workflow.
