@@ -10,12 +10,26 @@
     "workflow-automation"
   ],
   "version": "1.0.0",
-  "license": "MIT",
-  "type": "module",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/fynnhaupt/skills"
+  },
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "format": "prettier --check --ignore-unknown .",
+    "format:fix": "prettier --write --ignore-unknown .",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.10"
+  },
+  "lint-staged": {
+    "*.{html,css,json,md,yml,yaml}": "prettier --check --ignore-unknown",
+    "*.{ts,mts,cts,tsx,js,mjs,cjs,jsx}": "prettier --check --ignore-unknown"
   },
   "devEngines": {
     "packageManager": {
