@@ -5,7 +5,10 @@ A collection of agent skills, installed by users via `npx skills@latest add fynn
 ## Layout
 
 - `skills/<name>/SKILL.md`: one folder per skill, with YAML frontmatter (`name`, `description`). The folder name matches `name`. Supporting files sit beside `SKILL.md`.
-- `docs/`: repo-level docs (ADRs, glossary, research notes). Skill content lives in `skills/`.
+- `docs/`: repo-level docs. Skill content lives in `skills/`.
+  - `docs/GLOSSARY.md`: the domain terms, one definition each.
+  - `docs/decisions/`: ADRs, one file per decision (`NNNN-<title>.md`).
+  - `docs/conventions/`: how work in this repo is done, one `<topic>.md` per topic (e.g. `git.md`).
 
 ## Workflow
 
