@@ -27,6 +27,10 @@ Install skills with the [Skills CLI](https://github.com/vercel-labs/skills), no 
 npx skills@latest add fynnhaupt/skills
 ```
 
+## Credits
+
+- `document` is adapted from [`domain-modeling`](https://github.com/mattpocock/skills/blob/main/skills/engineering/domain-modeling/SKILL.md) by Matt Pocock (MIT).
+
 ## License
 
 Released under the [MIT License](https://github.com/fynnhaupt/skills/blob/main/LICENSE)
