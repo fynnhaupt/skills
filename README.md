@@ -5,7 +5,7 @@
   <a href="https://github.com/fynnhaupt/skills/actions/workflows/check.yaml">
     <img src="https://github.com/fynnhaupt/skills/actions/workflows/check.yaml/badge.svg" alt="Check">
   </a>
-  <a href="https://github.com/fynnhaupt/skills/actions/workflows/deploy.yaml">
+  <a href="https://github.com/fynnhaupt/skills/actions/workflows/release.yaml">
     <img src="https://github.com/fynnhaupt/skills/actions/workflows/release.yaml/badge.svg" alt="Release">
   </a>
 </div>
