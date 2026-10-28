@@ -8,7 +8,7 @@ A collection of agent skills, installed by users via `npx skills@latest add fynn
 - `docs/`: repo-level docs. Skill content lives in `skills/`.
   - `docs/GLOSSARY.md`: the domain terms, one definition each.
   - `docs/decisions/`: ADRs, one file per decision (`NNNN-<title>.md`).
-  - `docs/conventions/`: how work in this repo is done, one file per topic.
+  - `docs/conventions/`: how work in this repo is done, one `<topic>.md` per topic (e.g. `git.md`).
 
 ## Workflow
 
