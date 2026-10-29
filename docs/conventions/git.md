@@ -38,4 +38,4 @@ Specs and tasks are issues; workflow labels carry a prefix so they sort together
 - Asking for changes: swap the PR's `status: in-review` for `status: rework-needed`; after the rework, swap it back.
 - Merging the PR closes the task issue; no status label is needed for done.
 - Mark a task that waits on another with GitHub's "blocked by" dependency, not a label.
-- Create a missing workflow label before adding it.
+- Ask the user before creating an issue or a missing label.
