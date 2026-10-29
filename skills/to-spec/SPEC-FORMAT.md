@@ -13,7 +13,7 @@ What is true once it is done.
 
 ## Approach
 
-How it will be built: the modules that change, the interfaces between them, the data that moves.
+How it will be built: the modules that change, the interfaces between them, the data that moves, and the seams to test.
 
 ## Acceptance criteria
 
