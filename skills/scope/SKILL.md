@@ -21,3 +21,5 @@ Grill a **request** until its scope is settled: every question a spec must answe
    Narrow a request that holds several independent outcomes to one, and list the others under **Out of scope** as later requests.
 
    Done when the user has confirmed the playback and every item has an answer; an empty item is answered "none" by the user, never by you.
+
+Then tell the user to run `/to-spec` in this session to turn the scope into a spec.
