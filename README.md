@@ -32,6 +32,7 @@ npx skills@latest add fynnhaupt/skills
 - `documenting` is adapted from [`domain-modeling`](https://github.com/mattpocock/skills/blob/main/skills/engineering/domain-modeling/SKILL.md) by Matt Pocock (MIT).
 - `grilling` is inspired by [`grilling`](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) by Matt Pocock (MIT).
 - `testing` is adapted from [`tdd`](https://github.com/mattpocock/skills/blob/main/skills/engineering/tdd/SKILL.md) by Matt Pocock (MIT).
+- `reviewing` is adapted from [`code-review`](https://github.com/mattpocock/skills/blob/main/skills/engineering/code-review/SKILL.md) by Matt Pocock (MIT).
 
 ## License
 
