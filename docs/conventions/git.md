@@ -18,6 +18,7 @@ Every branch has one type:
 - Branch name: `<type>/<title>`, type lowercase (e.g. `feat/add-grill-me-skill`). For an issue: `<type>/<issue-id>/<title>` (e.g. `feat/12/add-grill-me-skill`).
 - PR title: `<Type>: <title>`, type capitalized (e.g. `Feat: add grill-me skill`). For an issue: `<Type> #<issue-id>: <title>` (e.g. `Feat #12: add grill-me skill`).
 - Give issues and PRs the label matching their type.
+- Assign a new PR to its creator (`gh pr create --assignee @me`).
 
 ## Workflow labels
 
