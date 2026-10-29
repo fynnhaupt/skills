@@ -8,7 +8,7 @@ A collection of agent skills, installed by users via `npx skills@latest add fynn
 - `docs/`: repo-level docs. Skill content lives in `skills/`.
   - `docs/GLOSSARY.md`: the domain terms. Use them.
   - `docs/decisions/`: why things are the way they are. Check before changing something that looks odd.
-  - `docs/conventions/`: how work here is done, one file per topic. See [Conventions](#conventions) for when to read each.
+  - `docs/conventions/`: how work here is done, one file per topic. [docs/CONVENTIONS.md](docs/CONVENTIONS.md) says when to read each.
 
 ## Workflow
 
@@ -18,4 +18,4 @@ A collection of agent skills, installed by users via `npx skills@latest add fynn
 
 ## Conventions
 
-- Before any commit, branch, PR, or issue label change, read [docs/conventions/git.md](docs/conventions/git.md).
+- Before starting any work, read [docs/CONVENTIONS.md](docs/CONVENTIONS.md) and follow its pointers.
