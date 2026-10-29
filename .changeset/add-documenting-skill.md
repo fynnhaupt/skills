@@ -2,4 +2,4 @@
 '@fynnhaupt/skills': minor
 ---
 
-add document skill
+add documenting skill
