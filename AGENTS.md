@@ -18,4 +18,4 @@ A collection of agent skills, installed by users via `npx skills@latest add fynn
 
 ## Conventions
 
-- Before any commit, branch, or PR, read [docs/conventions/git.md](docs/conventions/git.md).
+- Before any commit, branch, PR, or issue label change, read [docs/conventions/git.md](docs/conventions/git.md).
