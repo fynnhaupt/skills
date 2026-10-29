@@ -58,6 +58,10 @@ The workflow needs a GitHub repository and the [GitHub CLI](https://cli.github.c
 - `testing` is adapted from [`tdd`](https://github.com/mattpocock/skills/blob/main/skills/engineering/tdd/SKILL.md) by Matt Pocock (MIT).
 - `reviewing` is adapted from [`code-review`](https://github.com/mattpocock/skills/blob/main/skills/engineering/code-review/SKILL.md) by Matt Pocock (MIT).
 - `implementing` is adapted from [`implement`](https://github.com/mattpocock/skills/blob/main/skills/engineering/implement/SKILL.md) by Matt Pocock (MIT).
+- `to-spec` is inspired by [`to-spec`](https://github.com/mattpocock/skills/blob/main/skills/engineering/to-spec/SKILL.md) by Matt Pocock (MIT).
+- `to-tasks` is inspired by [`to-tickets`](https://github.com/mattpocock/skills/blob/main/skills/engineering/to-tickets/SKILL.md) by Matt Pocock (MIT).
+
+The adapted skills carry Matt Pocock's MIT license notice in their own `LICENSE` file.
 
 ## License
 
