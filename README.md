@@ -33,6 +33,7 @@ npx skills@latest add fynnhaupt/skills
 - `grilling` is inspired by [`grilling`](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md) by Matt Pocock (MIT).
 - `testing` is adapted from [`tdd`](https://github.com/mattpocock/skills/blob/main/skills/engineering/tdd/SKILL.md) by Matt Pocock (MIT).
 - `reviewing` is adapted from [`code-review`](https://github.com/mattpocock/skills/blob/main/skills/engineering/code-review/SKILL.md) by Matt Pocock (MIT).
+- `implementing` is adapted from [`implement`](https://github.com/mattpocock/skills/blob/main/skills/engineering/implement/SKILL.md) by Matt Pocock (MIT).
 
 ## License
 
