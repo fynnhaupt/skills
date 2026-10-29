@@ -27,14 +27,14 @@ Specs and tasks are issues; workflow labels carry a prefix so they sort together
 | ----------------------- | ---------- | --------------------------------------- |
 | `kind: spec`            | issue      | The issue is a spec.                    |
 | `kind: task`            | sub-issue  | The issue is a task of its parent spec. |
-| `status: in-progress`   | task issue | Someone is implementing the task.       |
+| `status: in-progress`   | task issue | The task has started and is not merged. |
 | `status: in-review`     | PR         | The PR waits for review.                |
 | `status: rework-needed` | PR         | Review asked for changes.               |
 
-- Each status lives in one place: on the task issue until its PR opens, then on the PR only (see [0003](../decisions/0003-track-review-status-in-pr-labels.md)).
+- The task issue says the task has started; review status lives on the PR only (see [0003](../decisions/0003-track-review-status-in-pr-labels.md)).
 - An open `kind: task` issue with no status label and no linked PR is ready to start.
 - Starting a task: add `status: in-progress` to the issue.
-- Opening its PR: add `status: in-review` to the PR and remove `status: in-progress` from the issue.
+- Its PR stays a draft while the task is built. Marking it ready for review: add `status: in-review` to the PR; the issue keeps `status: in-progress` until the merge closes it.
 - Asking for changes: swap the PR's `status: in-review` for `status: rework-needed`; after the rework, swap it back.
 - Merging the PR closes the task issue; no status label is needed for done.
 - Mark a task that waits on another with GitHub's "blocked by" dependency, not a label.
