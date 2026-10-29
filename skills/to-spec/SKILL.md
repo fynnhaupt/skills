@@ -14,4 +14,4 @@ Turn the **scope** settled earlier in this conversation into a **spec**: one Git
 2. **File the spec** as a GitHub issue, using [SPEC-FORMAT.md](SPEC-FORMAT.md), labelled `kind: spec` plus the type label from the project's conventions, if it defines one. First show the user the title, body, and labels, naming any label that does not exist yet, and create the issue and missing labels only after they confirm. Done when the issue exists and you have given the user its link.
 3. **Record what outlives the spec** with the `documenting` skill: new terms, decisions, and conventions settled along the way. Done when each is written or the user has said there are none.
 
-Then tell the user to run `/to-tasks` with the spec issue to split it into tasks.
+Then tell the user to run `/to-tasks` to split the spec into tasks.
