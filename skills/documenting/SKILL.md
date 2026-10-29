@@ -1,9 +1,9 @@
 ---
-name: document
+name: documenting
 description: Record a settled outcome in the project's docs, as a glossary term, a decision, or a convention. Use right after something is decided, or when editing docs/GLOSSARY.md, docs/decisions/, or docs/conventions/.
 ---
 
-# Document
+# Documenting
 
 Write down what was just **settled**, so the next session starts from it instead of rediscovering it. Each settled outcome lands in exactly one home:
 

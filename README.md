@@ -29,7 +29,7 @@ npx skills@latest add fynnhaupt/skills
 
 ## Credits
 
-- `document` is adapted from [`domain-modeling`](https://github.com/mattpocock/skills/blob/main/skills/engineering/domain-modeling/SKILL.md) by Matt Pocock (MIT).
+- `documenting` is adapted from [`domain-modeling`](https://github.com/mattpocock/skills/blob/main/skills/engineering/domain-modeling/SKILL.md) by Matt Pocock (MIT).
 
 ## License
 
