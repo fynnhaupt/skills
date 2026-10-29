@@ -1,6 +1,6 @@
 ---
 name: documenting
-description: Record a settled outcome in the project's docs, as a glossary term, a decision, or a convention. Use right after something is decided, or when editing docs/GLOSSARY.md, docs/decisions/, or docs/conventions/.
+description: Record a settled outcome in the project's docs, as a glossary term, a decision, or a convention. Use right after something is decided, or when editing docs/GLOSSARY.md, docs/decisions/, docs/conventions/, or docs/CONVENTIONS.md.
 ---
 
 # Documenting
@@ -21,4 +21,4 @@ Create a file or folder only when its first entry is ready.
 2. **Sharpen the language.** For each outcome, check its words against `docs/GLOSSARY.md`. Where a word is fuzzy, overloaded, or clashes with a defined term, propose the canonical term and get the user's pick before writing. Done when every outcome uses glossary terms or adds a new one to the list.
 3. **Check for conflicts.** Read the existing entries in each target home. Where an outcome contradicts one, show both to the user and ask which stands. Done when no outcome contradicts a kept entry.
 4. **Write each outcome** in its home, using that type's format. A changed outcome edits its existing entry in place. Done when every outcome on the list is written and each meaning lives in one place: decisions and conventions name glossary terms rather than redefine them, and a convention links the decision behind it.
-5. **Point to new conventions.** For each conventions topic you created, add a line under `## Conventions` in the project's `AGENTS.md` (or `CLAUDE.md` if that is the one the project uses), creating the section if needed. The line names the moment to read the topic: `- Before any commit, branch, or PR, read [docs/conventions/git.md](docs/conventions/git.md).` Done when every file in `docs/conventions/` has its line.
+5. **Point to new conventions.** For each conventions topic you created, add a line to `docs/CONVENTIONS.md`, creating the file if needed. The line names the moment to read the topic: `- Before any commit, branch, or PR, read [conventions/git.md](conventions/git.md).` If you created `docs/CONVENTIONS.md`, also add this line under `## Conventions` in the project's `AGENTS.md` (or `CLAUDE.md` if that is the one the project uses), creating the section if needed: `- Before starting any work, read [docs/CONVENTIONS.md](docs/CONVENTIONS.md) and follow its pointers.` Done when every file in `docs/conventions/` has its line in `docs/CONVENTIONS.md` and `AGENTS.md` points to it.
