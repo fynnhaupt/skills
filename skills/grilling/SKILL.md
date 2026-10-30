@@ -15,6 +15,8 @@ Interview the user until you and they hold a **shared understanding** of the top
    - **No**: reject it; ask what they want instead.
    - **Other**: the user gives their own answer.
 
+   Ask through your harness's interactive question tool when it has one (e.g. `AskUserQuestion` in Claude Code), with Yes and No as options; its free-text choice is Other. Only without such a tool, type the question and replies as text.
+
    After each reply, update the list: drop what the answer settled, add what it opened. Done when the list is empty.
 
 3. **Play it back.** Summarise every settled outcome in a short list and ask the user to confirm it. A correction goes back to step 2. Done when the user confirms the summary.
