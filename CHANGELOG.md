@@ -1,5 +1,13 @@
 # @fynnhaupt/skills
 
+## 1.2.1
+
+### Patch Changes
+
+- [#27](https://github.com/fynnhaupt/skills/pull/27) [`f8b8d68`](https://github.com/fynnhaupt/skills/commit/f8b8d681007d6bbf22b23640ebaae4ad984e19f6) Thanks [@fynnhaupt](https://github.com/fynnhaupt)! - ask grilling questions through the harness's interactive question tool
+
+- [#29](https://github.com/fynnhaupt/skills/pull/29) [`6c6e1b1`](https://github.com/fynnhaupt/skills/commit/6c6e1b1726c7e2ec263d84276dec00a9dbad251f) Thanks [@fynnhaupt](https://github.com/fynnhaupt)! - phrase grilling questions as the recommendation so Yes accepts it
+
 ## 1.2.0
 
 ### Minor Changes
