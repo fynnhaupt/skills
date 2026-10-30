@@ -10,7 +10,7 @@ Interview the user until you and they hold a **shared understanding** of the top
 ## Steps
 
 1. **Map the open questions.** Read the topic and any code or docs it touches, then list what is still unclear: goals, scope, constraints, edge cases, trade-offs. Answer what you can by looking; only questions that need the user's judgement stay on the list. Done when every item on the list needs the user.
-2. **Ask one question at a time**, most fundamental first, since its answer may reshape the rest. Offer exactly three replies:
+2. **Ask one question at a time**, most fundamental first, since its answer may reshape the rest. Phrase it as a yes/no question that proposes your recommendation, so Yes reads as accepting it: "Keep sessions in Redis?", not "Where should sessions live?". Offer exactly three replies:
    - **Yes**: your **recommended answer**, with a one-line why. Yes always means the recommendation, so it needs no extra marker.
    - **No**: reject it; ask what they want instead.
    - **Other**: the user gives their own answer.
