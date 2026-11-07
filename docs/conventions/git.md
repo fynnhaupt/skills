@@ -38,6 +38,7 @@ Specs and tasks are issues; workflow labels carry a prefix so they sort together
 - Starting a task: add `status: in-progress` to the issue.
 - Its PR stays a draft while the task is built. Marking it ready for review: add `status: in-review` to the PR; the issue keeps `status: in-progress` until the merge closes it.
 - Asking for changes: swap the PR's `status: in-review` for `status: rework-needed`; after the rework, swap it back.
-- Merging the PR closes the task issue; no status label is needed for done.
+- Merging the PR closes the task issue; no status label is needed for done. Cleaning up afterwards removes the `status:` labels from the task issue and its PR.
+- Close a spec once all its tasks are closed and its docs PR, if any, is merged.
 - Mark a task that waits on another with GitHub's "blocked by" dependency, not a label.
 - Ask the user before creating an issue or a missing label.
