@@ -9,6 +9,8 @@ disable-model-invocation: true
 
 Take one **task** from ready to a PR that waits for review. The task's status moves with it: `status: in-progress` on the task issue from start until the merge closes it, and a draft PR from the start that becomes ready with `status: in-review` once built. Before creating a label that does not exist yet, ask the user.
 
+Ask the user every question, including a confirmation, through your harness's interactive question tool when it has one (e.g. `AskUserQuestion` in Claude Code), with the likely replies as options; show anything they must review, such as an issue body, as text first. Only without such a tool, type the question as text.
+
 ## Steps
 
 1. **Pick the task.** A task is ready when it is an open `kind: task` issue with no status label, no linked PR, and no open "blocked by" issue. If a task was given as the argument, check it is ready; if not, tell the user why and stop. If none was given, list the ready ones and ask which. Done when the user has a ready task confirmed.

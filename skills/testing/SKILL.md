@@ -11,6 +11,8 @@ A **seam** is a public interface where you observe behaviour without reaching in
 
 If the project has no test runner, tell the user and stop; this skill does not set one up.
 
+Ask the user every question, including a confirmation, through your harness's interactive question tool when it has one (e.g. `AskUserQuestion` in Claude Code), with the likely replies as options; show anything they must review, such as an issue body, as text first. Only without such a tool, type the question as text.
+
 ## Steps
 
 1. **Agree the seams.** Take them from the spec's approach, if the work has a spec that names them. Otherwise propose seams on the critical paths and complex logic, and confirm them with the user. Done when every seam you will test is named and agreed.

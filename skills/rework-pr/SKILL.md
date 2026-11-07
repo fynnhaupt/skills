@@ -9,6 +9,8 @@ disable-model-invocation: true
 
 Take one PR labelled `status: rework-needed` back to `status: in-review`, with every change its review asked for either made or answered. The task issue keeps `status: in-progress` throughout. Before creating a label that does not exist yet, ask the user.
 
+Ask the user every question, including a confirmation, through your harness's interactive question tool when it has one (e.g. `AskUserQuestion` in Claude Code), with the likely replies as options; show anything they must review, such as an issue body, as text first. Only without such a tool, type the question as text.
+
 ## Steps
 
 1. **Pick the PR.** Use the PR given as the argument, or else the PR of the current branch. If it lacks `status: rework-needed`, tell the user why and stop. Check out its branch and pull it, in a git worktree when possible (reuse one that already holds the branch), so the user's checkout stays untouched. If the default branch has moved on, merge it into the branch; on conflicts, resolve them or ask the user. Done when you are on the PR's up-to-date branch with the default branch merged in.

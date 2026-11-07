@@ -15,6 +15,8 @@ Write down what was just **settled**, so the next session starts from it instead
 
 Create a file or folder only when its first entry is ready.
 
+Ask the user every question, including a confirmation, through your harness's interactive question tool when it has one (e.g. `AskUserQuestion` in Claude Code), with the likely replies as options; show anything they must review, such as an issue body, as text first. Only without such a tool, type the question as text.
+
 ## Steps
 
 1. **List the settled outcomes.** Go through the discussion and pull out every outcome the user agreed to, and classify each with the table. An outcome still open stays out; ask the user to settle it or leave it. Done when every agreed outcome is on the list with one type.

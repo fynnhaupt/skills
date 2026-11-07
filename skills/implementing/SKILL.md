@@ -7,6 +7,8 @@ description: Implement a piece of work, such as a task, test-first where the pro
 
 Build the work in the conversation, such as a **task**, and leave it committed and reviewed on the current branch. Build only what the work asks; anything else you notice goes to the user as a note, not into the code.
 
+Ask the user every question, including a confirmation, through your harness's interactive question tool when it has one (e.g. `AskUserQuestion` in Claude Code), with the likely replies as options; show anything they must review, such as an issue body, as text first. Only without such a tool, type the question as text.
+
 ## Steps
 
 1. **Read the work.** For a task issue, read it and its parent spec. Then read the code it touches. Done when you can name the modules it changes and the seams to test.
