@@ -17,7 +17,7 @@ My collection of agent skills I use every day to automate my workflow:
 1. **Reusable**: Covers the tasks that come up again and again.
 2. **One workflow**: Each skill covers one step, and together they form a single workflow.
 3. **Built around GitHub**: Specs and tasks are issues, work lands through PRs, and status lives in labels.
-4. **Isolated**: `/to-pr` and `/rework-pr` work in a git worktree when possible, so your own checkout stays untouched.
+4. **Isolated**: `/to-pr` and `/rework-pr` work in a git worktree when possible, so your own checkout stays untouched; `/cleanup` removes it after the merge.
 
 Every skill here comes from my own everyday work and is refined through use.
 
@@ -38,6 +38,7 @@ Each workflow skill is one step you start yourself; they carry a request to a me
 3. `/to-tasks <spec-issue>`: split the spec into tasks, filed as its sub-issues.
 4. `/to-pr <task-issue>`: implement one task on its own branch and open a PR for review.
 5. `/rework-pr <pr>`: make the changes a review asked for and hand the PR back to review.
+6. `/cleanup <task-issue>`: after the merge, clear the task's labels, worktree, and branch, and close the spec once every task is done.
 
 The workflow skills build on these building blocks, which you can also use on their own:
 
