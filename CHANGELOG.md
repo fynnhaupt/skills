@@ -1,5 +1,19 @@
 # @fynnhaupt/skills
 
+## 1.3.0
+
+### Minor Changes
+
+- [#34](https://github.com/fynnhaupt/skills/pull/34) [`3a7efd3`](https://github.com/fynnhaupt/skills/commit/3a7efd310529be377e5463fddb72d66181eb85ec) Thanks [@fynnhaupt](https://github.com/fynnhaupt)! - Add `cleanup`: after a task's PR is merged, it removes the task's status labels, worktree, and branch, and closes the parent spec once every task is done.
+
+- [#33](https://github.com/fynnhaupt/skills/pull/33) [`e08b960`](https://github.com/fynnhaupt/skills/commit/e08b9600763bbcfe100579b6d37acb581215e18c) Thanks [@fynnhaupt](https://github.com/fynnhaupt)! - `to-spec` now commits the docs it records on a `docs` branch, opens a PR for them, and links it from the spec as `Docs: #<pr>`. `to-pr` treats a task as ready only once that docs PR is merged, so every task branches from a default branch that already has the docs.
+
+### Patch Changes
+
+- [#32](https://github.com/fynnhaupt/skills/pull/32) [`b30e21e`](https://github.com/fynnhaupt/skills/commit/b30e21e2f56f9d0cff791f91dc62dbc665438c65) Thanks [@fynnhaupt](https://github.com/fynnhaupt)! - Every skill that asks the user something now asks through the harness's interactive question tool (e.g. `AskUserQuestion`) when it has one, instead of typing the question and waiting for a text reply.
+
+- [#30](https://github.com/fynnhaupt/skills/pull/30) [`e7f1cf8`](https://github.com/fynnhaupt/skills/commit/e7f1cf8677bd74442277f792eb0f996a3fdfca12) Thanks [@fynnhaupt](https://github.com/fynnhaupt)! - Align wording across skills: default branch in `to-tasks`, an example branch name in `to-pr`, and `implementing` no longer assumes a typecheck or a task's acceptance criteria.
+
 ## 1.2.1
 
 ### Patch Changes
