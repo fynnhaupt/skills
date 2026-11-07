@@ -8,6 +8,8 @@ disable-model-invocation: true
 
 Turn the **scope** settled earlier in this conversation into a **spec**: one GitHub issue that says what to build, why, and how. If no scope was settled in this conversation, tell the user to run `/scope` first and stop.
 
+Ask the user every question, including a confirmation, through your harness's interactive question tool when it has one (e.g. `AskUserQuestion` in Claude Code), with the likely replies as options; show anything they must review, such as an issue body, as text first. Only without such a tool, type the question as text.
+
 ## Steps
 
 1. **Work out the approach.** Read the code the scope touches, then decide how to build it: the modules to change, the interfaces between them, the data that moves, and the interfaces where tests observe behaviour (the seams). Grill the user with the `grilling` skill on choices only they can make. Done when every acceptance criterion maps to a part of the approach.

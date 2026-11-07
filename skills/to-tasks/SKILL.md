@@ -9,6 +9,8 @@ disable-model-invocation: true
 
 Split a **spec** issue into **tasks**: vertical slices, each implemented in one PR, filed as sub-issues of the spec. Take the spec issue from the argument, or else the spec filed earlier in this conversation; if there is neither, ask for it.
 
+Ask the user every question, including a confirmation, through your harness's interactive question tool when it has one (e.g. `AskUserQuestion` in Claude Code), with the likely replies as options; show anything they must review, such as an issue body, as text first. Only without such a tool, type the question as text.
+
 ## Steps
 
 1. **Read the spec** issue and the code its approach touches. If the spec already has sub-issues, show them to the user and ask whether to add more or stop. Done when you can say which modules each acceptance criterion changes.

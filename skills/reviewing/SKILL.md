@@ -14,6 +14,8 @@ A change can pass one axis and fail the other, so each axis is reviewed and repo
 
 The review comes from a **third perspective**: reviewers who did not write the code and see only the code, the spec, and the standards, never the author's reasoning or account of the change.
 
+Ask the user every question, including a confirmation, through your harness's interactive question tool when it has one (e.g. `AskUserQuestion` in Claude Code), with the likely replies as options; show anything they must review, such as an issue body, as text first. Only without such a tool, type the question as text.
+
 ## Steps
 
 1. **Pin the base.** The review covers commits only: if `git status` shows uncommitted or untracked changes, tell the user to commit them and stop. Use the base the user named; otherwise the merge-base with the default branch. Check that it resolves and the diff `git diff <base>...HEAD` is not empty. Done when you have the diff command and the commit list `git log <base>..HEAD --oneline`.
