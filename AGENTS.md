@@ -1,6 +1,6 @@
 # AGENTS.md
 
-A collection of agent skills, installed by users via `npx skills@latest add fynnhaupt/skills`. Each skill covers one step of a single everyday workflow.
+A collection of agent skills, installed by users via `npx skills@latest add fynnhaupt/skills`. Each workflow skill covers one step of a single everyday workflow; building blocks are the skills those steps build on.
 
 ## Layout
 
