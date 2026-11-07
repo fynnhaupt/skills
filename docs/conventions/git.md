@@ -33,7 +33,8 @@ Specs and tasks are issues; workflow labels carry a prefix so they sort together
 | `status: rework-needed` | PR         | Review asked for changes.               |
 
 - The task issue says the task has started; review status lives on the PR only (see [0003](../decisions/0003-track-review-status-in-pr-labels.md)).
-- An open `kind: task` issue with no status label and no linked PR is ready to start.
+- An open `kind: task` issue with no status label, no linked PR, and no open "blocked by" issue is ready to start once its spec's docs PR, if the spec names one (`Docs: #<pr>`), is merged.
+- A spec's docs PR carries `Refs #<spec>`, not `Closes`, so its merge leaves the spec open.
 - Starting a task: add `status: in-progress` to the issue.
 - Its PR stays a draft while the task is built. Marking it ready for review: add `status: in-review` to the PR; the issue keeps `status: in-progress` until the merge closes it.
 - Asking for changes: swap the PR's `status: in-review` for `status: rework-needed`; after the rework, swap it back.
