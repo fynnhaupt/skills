@@ -28,6 +28,7 @@ What it deliberately leaves alone, including later requests split off during sco
 Limits the solution must respect.
 ```
 
+- Once a docs PR exists for the spec, add `Docs: #<pr>` as the body's last line.
 - Keep every scope item; write "None." under an item the user answered "none".
 - Use the project's glossary terms.
 - Describe the approach by modules and interfaces, not file paths or line numbers, so it stays true while the code changes.
