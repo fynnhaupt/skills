@@ -28,7 +28,7 @@
     "@changesets/cli": "^3.0.3",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
-    "prettier": "^3.9.10"
+    "prettier": "^3.10.0"
   },
   "lint-staged": {
     "*.{html,css,json,md,yml,yaml}": "prettier --check --ignore-unknown",
